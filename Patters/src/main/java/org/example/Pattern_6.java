@@ -13,7 +13,7 @@ public class Pattern_6 {
         int c=5,r=5,ptc=0,ptr=4;
         for (int i = 0; i < c; i++) {
             for (int j = 0; j < r; j++) {
-                System.out.print(ptc == i & ptr <= j ? "*" : " ");
+                System.out.print(ptc == i && ptr <= j ? "*" : " ");
             }
             ptc++;
             ptr--;

@@ -16,10 +16,11 @@ public class Pattern_13 {
             for (int j = i; j < c; j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <2*i-1; j++) {
-                System.out.print(j%i==0?" ":"*");
+            for (int k = 0; k <2*i-1; k++) {
+                    System.out.print((k==0||k==2*i-2||i==c)?"*":" ");
             }
             System.out.println();
         }
+
     }
 }
